@@ -47,6 +47,17 @@
                 font-size:xx-large;
             }
 
+            .interest{
+                display: flex;
+            }
+
+            #pr1{
+                margin-left: 100px;
+                text-align:justify;
+                font-style: italic;
+                font-size:xx-large;
+            }
+
             .box1{
                 margin-left: 100px;
                 padding: 0;
@@ -66,6 +77,17 @@
                 text-align:justify;
                 font-style: italic;
                 font-size:x-large;
+            }
+            .box2{
+                flex:1;
+                margin-left: 100px;
+                padding: 0;
+                box-sizing:border-box;
+                font-style: italic;
+                font-size:large;
+                border-style: solid;
+                background-color: aquamarine;
+                width: 250px;
             }
         </style>
     </head>
@@ -92,22 +114,31 @@
             <li> DO the right thing, the right way, at the right time</li>
             </ul>
     </div><br><br>
-    <div class="interests">
-        <h3>Interests</h3>
+    <div id="pr1"><h3>Interests</h3></div><br>
+    <div class="interest">
         <div class="box1">
-          Programming Languages
-            <ul>
-            <li>COBOL</li>
-            <li>Python</li>
-            <li>C++</li>
-            <li>C</li>
-            <li>Tad bit of JavaScript</li>
-            </ul>
+          Programming Languages<br>
+          COBOL<br>
+          Python<br>
+          C++<br>
+          C<br>
+          Tad bit of JavaScript<br>
         </div>
+        <div class="box2">
+            Databases<br>
+            DB2<br>
+            MySQL<br>
+          </div>
+          <div class="box2">
+            Machine Learning<br>
+            Using Python pandas<br>
+          </div>
+        </div>
+    </div><br><br>
     <div class = "contact">
          To know more about me. Please check my LinkedIn profile below or drop me a mail <br>
             <a target="_blank" href="https://www.linkedin.com/in/prp43/" ><img src="images/LI-logo.png" width="120" height="100"></a>
-            <a href="mailto:prasannaragav29@gmail.com"><img src="images/mail-logo.png" width="120" height="100"></a> 
+            <a href="mailto:prasannaragav29@gmail.com?subject=Email from PR webpage"><img src="images/mail-logo.png" width="120" height="100"></a> 
         </div>
     </body>
 </html>
