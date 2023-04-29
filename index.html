@@ -1,29 +1,113 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Prasnna's Personal Page</title>
+        <meta charset="UTF-8" />  
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Prasanna's Personal Page</title>
         <!-- Display Icon-->
         <link rel="icon" href="images/prlogo.ico">
+        <link rel="stylesheet" href="css/style.css" />
+        <style>
+            *  {
+                margin: 0;
+                padding: 0;
+                    box-sizing: border-box;
+            }
+
+            body {
+                    font-family: cursive;
+                }
+            a {
+                    text-decoration: none;
+                }
+            .contact{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                text-align: center;
+            }
+            .intro{
+                margin-left: 100px;
+                padding: 0;
+                box-sizing:border-box;
+                text-align:justify;
+                font-style: italic;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                width: 750px;
+                font-size:xx-large;
+                
+            }
+            .motto{
+                margin-left: 100px;
+                padding: 0;
+                box-sizing:border-box;
+                text-align:justify;
+                font-style: italic;
+                font-size:xx-large;
+            }
+
+            .box1{
+                margin-left: 100px;
+                padding: 0;
+                box-sizing:border-box;
+                text-align:justify;
+                font-style: italic;
+                font-size:large;
+                border-style: solid;
+                background-color: aquamarine;
+                width: 250px;
+            }
+
+            .contact{
+                margin-left: 100px;
+                padding: 0;
+                box-sizing:border-box;
+                text-align:justify;
+                font-style: italic;
+                font-size:x-large;
+            }
+        </style>
     </head>
     <body>
-        <h3>Welcome to my Personal Page!</h3>
-        <div>
-            <p>
+    <nav>
+        <div class="topnav">
+            <a><img src="images/prlogo.ico" alt="PR logo" float:inline-end;  width="50" height="30"></a>
+            <a class="active" href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav><br><br>
+    <div class="intro">
+                <h3 margin="100px">Welcome to my Personal Page!</h3>
                 Hi there!
                 I am Prasanna. I am an aspiring software, system, product developer.
                 I love to discuss about Science, Technology, Philosophy and Astronomy.
                 I also love to read and mystery and Sci-Fi.
-            </p>
-        </div>
-        <div><h3>My Motto</h3>
+    </div><br><br>
+    <div class="motto"><h3>My Motto</h3>
             <ul>
             <li> Never settle</li>
             <li> Stay relevant</li>
             <li> DO the right thing, the right way, at the right time</li>
             </ul>
+    </div><br><br>
+    <div class="interests">
+        <h3>Interests</h3>
+        <div class="box1">
+          Programming Languages
+            <ul>
+            <li>COBOL</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>C</li>
+            <li>Tad bit of JavaScript</li>
+            </ul>
         </div>
-        <div> To know more about me. Please check my LinkedIn profile below or drop me a mail</div>
-        <div><a href="https://www.linkedin.com/in/prp43/"> LinkedIn</a></div>
-        <div><a href="mailto:prasannaragav29@gmail.com"> Mail me</a> </div>
+    <div class = "contact">
+         To know more about me. Please check my LinkedIn profile below or drop me a mail <br>
+            <a target="_blank" href="https://www.linkedin.com/in/prp43/" ><img src="images/LI-logo.png" width="120" height="100"></a>
+            <a href="mailto:prasannaragav29@gmail.com"><img src="images/mail-logo.png" width="120" height="100"></a> 
+        </div>
     </body>
 </html>
